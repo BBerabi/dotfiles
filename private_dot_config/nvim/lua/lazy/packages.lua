@@ -13,7 +13,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
 	{ "AstroNvim/astrotheme" },
-	{ "lewis6991/gitsigns.nvim" },
 	{ 'folke/tokyonight.nvim' },
 	{ 'rebelot/kanagawa.nvim' },
 	{ "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },

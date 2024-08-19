@@ -243,7 +243,6 @@ vim.api.nvim_create_autocmd({ "BufEnter", "VimEnter", "FileType" }, {
 
 
 require("flutter-tools").setup {} -- use defaults
-require("gitsigns").setup {}      -- use defaults
 
 -- local lsp_zero = require('lsp-zero')
 -- -- format code using lsp servers
